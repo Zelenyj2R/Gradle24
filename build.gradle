@@ -17,8 +17,8 @@ dependencies {
 jar {
     archiveFileName = "myname.jar"
     destinationDirectory = file("$rootDir/")
-    manifest {
-        attributes "Main-Class": "gradle.Main"
+      manifest {
+        attributes "Main-Class": "Gradle.Main"
     }
 
     from {
